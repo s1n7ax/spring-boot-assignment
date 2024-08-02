@@ -1,0 +1,44 @@
+GET localhost:8000/books
+Accept: application/json
+
+###
+
+PUT localhost:8000/book/12342341234 
+Content-Type: application/json
+
+{
+  "isbn": "12342341234",
+  "title":"title 1",
+  "author":"user 1"
+}
+
+###
+
+PUT localhost:8000/book/12342341235 
+Content-Type: application/json
+
+{
+  "isbn": "12342341235",
+  "title":"title 1",
+  "author":"user 1"
+}
+
+###
+
+POST localhost:8000/reader 
+Content-Type: application/json
+
+{
+  "name": "srinesh",
+  "email":"srinesh@email.com"
+}
+
+###
+
+POST localhost:8000/reader 
+Content-Type: application/json
+
+{
+  "name": "nisala",
+  "email":"nisala@email.com"
+}
