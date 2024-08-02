@@ -3,7 +3,7 @@
 ## Pre-requisites
 
 - **Docker** - Docker & docker compose is used to start the postgresql at development server start
-- Java 17
+- **Java 17**
 
 ## Starting the server
 
@@ -11,7 +11,7 @@
 > Do NOT run the compose file manually
 
 > [!WARNING]
-> On MacOS and Linux `./gradlew` executes the `gradlew` executable in the current directory
+> On MacOS and Linux `./gradlew` executes the `gradlew` executable in the current directory.
 > On windows, use `gradlew.exe` executable instead
 
 - To start the server, run `./gradlew bootRun` in the project directory
