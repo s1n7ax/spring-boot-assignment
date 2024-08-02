@@ -10,6 +10,10 @@
 > [!WARNING]
 > Do NOT run the compose file manually
 
+> [!WARNING]
+> On MacOS and Linux `./gradlew` executes the `gradlew` executable in the current directory
+> On windows, use `gradlew.exe` executable instead
+
 - To start the server, run `./gradlew bootRun` in the project directory
 - Access the server through `localhost:8000` and should return "Hello World"
 
